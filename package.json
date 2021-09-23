@@ -2,6 +2,7 @@
     "name": "gridsome-plugin-umami",
     "version": "0.1.0",
     "description": "umami analytics plugin for Gridsome",
+    "main": "gridsome.client.js",
     "keywords": [
         "gridsome",
         "gridsome-plugin",
