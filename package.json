@@ -1,0 +1,25 @@
+{
+    "name": "gridsome-plugin-umami",
+    "version": "0.1.0",
+    "description": "umami analytics plugin for Gridsome",
+    "main": "gridsome.client.js",
+    "keywords": [
+        "gridsome",
+        "gridsome-plugin",
+        "umami",
+        "analytics"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/fbuncom4/gridsome-plugin-umami.git"
+    },
+    "author": {
+        "name": "Frank Buncom IV",
+        "url": "https://frankbun.com/"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fbuncom4/gridsome-plugin-umami/issues"
+    },
+    "homepage": "https://github.com/fbuncom4/gridsome-plugin-umami#readme"
+}
