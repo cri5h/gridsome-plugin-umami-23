@@ -9,9 +9,9 @@ export default function (Vue, options, context) {
     }
 
     context.head.script.push({
-        'src': 'https://' + source + '/umami.js',
-        'async': true,
-        'defer': true,
+        src: 'https://' + websiteSource + '/umami.js',
+        async: true,
+        defer: true,
         'data-website-id': options.dataWebsiteId
     })
 }
