@@ -1,2 +1,42 @@
 # gridsome-plugin-umami
+
 umami analytics plugin for Gridsome
+
+## Installation
+
+* `npm install gridsome-plugin-umami`
+* `yarn add gridsome-plugin-umami`
+
+## Usage
+
+In `gridsome.config.js`:
+
+```js
+module.exports = {
+  plugins: [
+    {
+      use: 'gridsome-plugin-umami',
+      options: {
+        source: 'your-umami-app.com',
+        dataWebsiteId: 'SOME-RANDOM-HASH-PROVIDED-BY-UMAMI'
+      }
+    }
+  ]
+}   
+```
+
+## Options
+
+#### source
+
+- Type: `String`
+- Default: None, field is required
+
+Domain/website that was spun up to host your umami dashboard. e.g. your-umami-app.com
+
+#### dataWebsiteId
+
+- Type: `String`
+- Default: None, field is required
+
+dataWebsiteId can be found in your Umami dashboard using the instructions [here](https://umami.is/docs/collect-data).
