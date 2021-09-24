@@ -9,6 +9,7 @@ export default function (Vue, options, context) {
     }
 
     const dataDomains = options.customDataDomains != null ? options.customDataDomains : ''
+    const dataAutoTrack = options.autoTrack != null ? options.autoTrack : true
 
     context.head.script.push({
         src: options.srcUrl + '/umami.js',
@@ -16,5 +17,6 @@ export default function (Vue, options, context) {
         defer: true,
         'data-website-id': options.dataWebsiteId,
         'data-domains': dataDomains,
+        'data-auto-track': dataAutoTrack
     })
 }

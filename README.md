@@ -47,3 +47,10 @@ dataWebsiteId can be found in your Umami dashboard using the instructions [here]
 - Default: Empty
 
 If you want the tracker to only run on specific domains, you can add them here. This is a comma delimited list of domain names. More info [here](https://umami.is/docs/tracker-config)
+
+#### autoTrack (optional)
+
+- Type: `Boolean`
+- Default: True
+
+Enables [umami's auto tracking](https://umami.is/docs/tracker-config) feature that tracks all all pageviews and events automatically.
