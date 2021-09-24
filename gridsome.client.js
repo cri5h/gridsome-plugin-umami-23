@@ -8,10 +8,18 @@ export default function (Vue, options, context) {
         return;
     }
 
+    var dataDomains;
+    if (options.customDataDomains) {
+        dataDomains = options.customDataDomains
+    } else {
+        dataDomains = ''
+    }
+
     context.head.script.push({
         src: 'https://' + options.websiteSource + '/umami.js',
         async: true,
         defer: true,
-        'data-website-id': options.dataWebsiteId
+        'data-website-id': options.dataWebsiteId,
+        'data-domains': dataDomains,
     })
 }

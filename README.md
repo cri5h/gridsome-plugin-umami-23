@@ -40,3 +40,10 @@ Domain/website that was spun up to host your umami dashboard. e.g. your-umami-ap
 - Default: None, field is required
 
 dataWebsiteId can be found in your Umami dashboard using the instructions [here](https://umami.is/docs/collect-data).
+
+#### customDataDomains (optional)
+
+- Type: `String`
+- Default: Empty
+
+If you want the tracker to only run on specific domains, you can add them here. This is a comma delimited list of domain names. More info [here](https://umami.is/docs/tracker-config)
