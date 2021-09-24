@@ -3,20 +3,15 @@ export default function (Vue, options, context) {
         console.error('Please supply dataWebsiteId in options for gridsome-plugin-umami.')
         return;
     }
-    if (!options.websiteSource) {
-        console.error('Please supply websiteSource in options for gridsome-plugin-umami.')
+    if (!options.srcUrl) {
+        console.error('Please supply srcUrl in options for gridsome-plugin-umami.')
         return;
     }
 
-    var dataDomains;
-    if (options.customDataDomains) {
-        dataDomains = options.customDataDomains
-    } else {
-        dataDomains = ''
-    }
+    const dataDomains = options.customDataDomains != null ? options.customDataDomains : ''
 
     context.head.script.push({
-        src: 'https://' + options.websiteSource + '/umami.js',
+        src: options.srcUrl + '/umami.js',
         async: true,
         defer: true,
         'data-website-id': options.dataWebsiteId,

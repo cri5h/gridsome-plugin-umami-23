@@ -17,8 +17,8 @@ module.exports = {
     {
       use: 'gridsome-plugin-umami',
       options: {
-        websiteSource: 'your-umami-app.com',
-        dataWebsiteId: 'SOME-RANDOM-HASH-PROVIDED-BY-UMAMI'
+        srcUrl: 'https://your-umami-app.com',
+        dataWebsiteId: 'UMAMI_DATA_WEBSITE_ID'
       }
     }
   ]
@@ -27,7 +27,7 @@ module.exports = {
 
 ## Options
 
-#### websiteSource
+#### srcUrl
 
 - Type: `String`
 - Default: None, field is required
