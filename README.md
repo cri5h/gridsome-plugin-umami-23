@@ -52,16 +52,23 @@ dataWebsiteId can be found in your Umami dashboard using the instructions [here]
 
 Used to override where umami sends your data so that it can be sent to another location.
 
+#### dataAutoTrack (optional)
+
+- Type: `Boolean`
+- Default: True
+
+Enables umami's auto tracking feature that tracks all all pageviews and events automatically.
+
+#### dataDoNotTrack (optional)
+
+- Type: `Boolean`
+- Default: True
+
+Unlike the original functionality, this defaults to true to respect the visitor's Do Not Track setting.
+
 #### dataDomains (optional)
 
 - Type: `String`
 - Default: Empty
 
 If you want the tracker to only run on specific domains, you can add them here. This is a comma delimited list of domain names.
-
-#### autoTrack (optional)
-
-- Type: `Boolean`
-- Default: True
-
-Enables umami's auto tracking feature that tracks all all pageviews and events automatically.
