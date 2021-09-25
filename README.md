@@ -43,7 +43,7 @@ Domain/website that was spun up to host your umami dashboard. e.g. your-umami-ap
 
 dataWebsiteId can be found in your Umami dashboard using the instructions [here](https://umami.is/docs/collect-data).
 
-### Optional fields
+### Optional fields - configuration docs [here](https://umami.is/docs/tracker-config)
 
 #### dataHostUrl (optional)
 
@@ -52,16 +52,16 @@ dataWebsiteId can be found in your Umami dashboard using the instructions [here]
 
 Used to override where umami sends your data so that it can be sent to another location.
 
-#### customDataDomains (optional)
+#### dataDomains (optional)
 
 - Type: `String`
 - Default: Empty
 
-If you want the tracker to only run on specific domains, you can add them here. This is a comma delimited list of domain names. More info [here](https://umami.is/docs/tracker-config)
+If you want the tracker to only run on specific domains, you can add them here. This is a comma delimited list of domain names.
 
 #### autoTrack (optional)
 
 - Type: `Boolean`
 - Default: True
 
-Enables [umami's auto tracking](https://umami.is/docs/tracker-config) feature that tracks all all pageviews and events automatically.
+Enables umami's auto tracking feature that tracks all all pageviews and events automatically.
