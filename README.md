@@ -27,6 +27,8 @@ module.exports = {
 
 ## Options
 
+### Required fields
+
 #### srcUrl
 
 - Type: `String`
@@ -40,6 +42,15 @@ Domain/website that was spun up to host your umami dashboard. e.g. your-umami-ap
 - Default: None, field is required
 
 dataWebsiteId can be found in your Umami dashboard using the instructions [here](https://umami.is/docs/collect-data).
+
+### Optional fields
+
+#### dataHostUrl (optional)
+
+- Type: `String`
+- Default: Empty
+
+Used to override where umami sends your data so that it can be sent to another location.
 
 #### customDataDomains (optional)
 

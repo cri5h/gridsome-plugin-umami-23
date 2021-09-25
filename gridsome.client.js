@@ -8,6 +8,7 @@ export default function (Vue, options, context) {
         return;
     }
 
+    const dataHostUrl = options.dataHostUrl != null ? options.dataHostUrl : ''
     const dataDomains = options.customDataDomains != null ? options.customDataDomains : ''
     const dataAutoTrack = options.autoTrack != null ? options.autoTrack : true
 
@@ -16,6 +17,7 @@ export default function (Vue, options, context) {
         async: true,
         defer: true,
         'data-website-id': options.dataWebsiteId,
+        'data-host-url': dataHostUrl,
         'data-domains': dataDomains,
         'data-auto-track': dataAutoTrack
     })
