@@ -11,6 +11,7 @@ export default function (Vue, options, context) {
     const dataHostUrl = options.dataHostUrl != null ? options.dataHostUrl : ''
     const dataAutoTrack = options.dataAutoTrack != null ? options.dataAutoTrack : true
     const dataDoNotTrack = options.dataDoNotTrack != null ? options.dataDoNotTrack : true  // unlike original functionality, default to true
+    const dataCache = options.dataCache != null ? options.dataCache : false
     const dataDomains = options.dataDomains != null ? options.dataDomains : ''
 
     context.head.script.push({
@@ -21,6 +22,7 @@ export default function (Vue, options, context) {
         'data-host-url': dataHostUrl,
         'data-auto-track': dataAutoTrack,
         'data-do-not-track': dataDoNotTrack,
+        'data-cache': dataCache,
         'data-domains': dataDomains
     })
 }

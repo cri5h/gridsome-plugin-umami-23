@@ -66,6 +66,13 @@ Enables umami's auto tracking feature that tracks all all pageviews and events a
 
 Unlike the original functionality, this defaults to true to respect the visitor's Do Not Track setting.
 
+#### dataCache (optional)
+
+- Type: `Boolean`
+- Default: False
+
+Allows data caching. See docs for more info.
+
 #### dataDomains (optional)
 
 - Type: `String`
