@@ -1,29 +1,29 @@
 {
-    "name": "gridsome-plugin-umami",
-    "version": "1.2.0",
-    "description": "umami analytics plugin for Gridsome",
-    "main": "gridsome.client.js",
-    "keywords": [
-        "gridsome",
-        "gridsome-plugin",
-        "umami",
-        "analytics"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/fbuncom4/gridsome-plugin-umami.git"
-    },
-    "author": {
-        "name": "Frank Buncom IV",
-        "url": "https://frankbun.com/"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/fbuncom4/gridsome-plugin-umami/issues"
-    },
-    "homepage": "https://github.com/fbuncom4/gridsome-plugin-umami#readme",
-    "devDependencies": {
-        "eslint": "^7.32.0",
-        "eslint-plugin-vue": "^7.18.0"
-    }
+  "name": "gridsome-plugin-umami",
+  "version": "1.2.0",
+  "description": "umami analytics plugin for Gridsome",
+  "main": "gridsome.client.js",
+  "keywords": [
+    "gridsome",
+    "gridsome-plugin",
+    "umami",
+    "analytics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cri5h/gridsome-plugin-umami.git"
+  },
+  "author": {
+    "name": "Christoph Herrmann",
+    "url": "https://zuckersalzundpfeffer.de/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cri5h/gridsome-plugin-umami-23/issues"
+  },
+  "homepage": "https://github.com/cri5h/gridsome-plugin-umami-23#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.18.0"
+  }
 }

@@ -35,6 +35,12 @@ module.exports = {
 - Default: None, field is required
 
 Domain/website that was spun up to host your umami dashboard. e.g. your-umami-app.com
+#### dataHostFilename
+
+- Type: `String`
+- Default: `script.js`
+
+standard JS Filename including suffix (used to be .../umami.js - 2023 the cloud creates .../script.js).
 
 #### dataWebsiteId
 
