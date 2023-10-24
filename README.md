@@ -4,8 +4,8 @@ umami analytics plugin for Gridsome
 
 ## Installation
 
-* `npm install gridsome-plugin-umami`
-* `yarn add gridsome-plugin-umami`
+* `npm install gridsome-plugin-umami-23`
+* `yarn add gridsome-plugin-umami-23`
 
 ## Usage
 
@@ -15,7 +15,7 @@ In `gridsome.config.js`:
 module.exports = {
   plugins: [
     {
-      use: 'gridsome-plugin-umami',
+      use: 'gridsome-plugin-umami-23',
       options: {
         srcUrl: 'https://your-umami-app.com',
         dataWebsiteId: 'UMAMI_DATA_WEBSITE_ID'

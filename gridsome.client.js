@@ -1,10 +1,10 @@
 export default function (Vue, options, context) {
     if (!options.srcUrl) {
-        console.error('Please supply srcUrl in options for gridsome-plugin-umami.')
+        console.error('Please supply srcUrl in options for gridsome-plugin-umami-23.')
         return;
     }
     if (!options.dataWebsiteId) {
-        console.error('Please supply dataWebsiteId in options for gridsome-plugin-umami.')
+        console.error('Please supply dataWebsiteId in options for gridsome-plugin-umami-23.')
         return;
     }
     const dataHostFilename = options.dataHostFilename != null ? options.dataHostFilename : 'script.js'
