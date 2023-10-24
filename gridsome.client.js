@@ -7,7 +7,7 @@ export default function (Vue, options, context) {
         console.error('Please supply dataWebsiteId in options for gridsome-plugin-umami.')
         return;
     }
-
+    const dataHostFilename = options.dataHostFilename != null ? options.dataHostFilename : 'script.js'
     const dataHostUrl = options.dataHostUrl != null ? options.dataHostUrl : ''
     const dataAutoTrack = options.dataAutoTrack != null ? options.dataAutoTrack : true
     const dataDoNotTrack = options.dataDoNotTrack != null ? options.dataDoNotTrack : true  // unlike original functionality, default to true
@@ -15,7 +15,7 @@ export default function (Vue, options, context) {
     const dataDomains = options.dataDomains != null ? options.dataDomains : ''
 
     context.head.script.push({
-        src: options.srcUrl + '/umami.js',
+        src: options.srcUrl + '/' + dataHostFilename,
         async: true,
         defer: true,
         'data-website-id': options.dataWebsiteId,
