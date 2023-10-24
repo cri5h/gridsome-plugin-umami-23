@@ -1,4 +1,4 @@
-# gridsome-plugin-umami
+# gridsome-plugin-umami-23
 
 umami analytics plugin for Gridsome
 

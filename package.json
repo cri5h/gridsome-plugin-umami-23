@@ -1,5 +1,5 @@
 {
-  "name": "gridsome-plugin-umami",
+  "name": "gridsome-plugin-umami-23",
   "version": "1.2.0",
   "description": "umami analytics plugin for Gridsome",
   "main": "gridsome.client.js",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/cri5h/gridsome-plugin-umami.git"
+    "url": "git+ssh://git@github.com/cri5h/gridsome-plugin-umami-23.git"
   },
   "author": {
     "name": "Christoph Herrmann",
